@@ -4,9 +4,8 @@
 describe("App", function() {
   beforeEach(function() {
     cy.visit("/");
+    cy.get('.showTasks').click()
   });
 
-  it("renders the app", function() {
-    cy.get(".App-link").should("contain", "Learn React");
-  });
+  //Write your tests here
 });
